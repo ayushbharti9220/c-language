@@ -1,18 +1,16 @@
 #include<stdio.h>
 int main() {
-    int a,b,area;
+    
+    //area of circle is 3.14*radius*radius
 
-    // area of square is side*side = a*b
+float radius, area;
 
-    printf("Enter Side A: ");
-    scanf("%d", &a);
+    printf("Enter Radius here: ");
+    scanf("%f", &radius);
 
-    printf("Enter Side B: ");
-    scanf("%d", &b);
+    area = radius*radius*3.14 ; 
 
-    area = a*b ; 
- 
-    printf("Area is %d", area);
+    printf("%.2f", area);
 
     return 0;
 }
