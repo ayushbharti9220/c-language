@@ -6,7 +6,7 @@ int main() {
     printf("Enter Number N for Cube: ");
     scanf("%d", &n);
 
-    cube = n^3;
+    cube = n*n*n;
 
     printf("Cube is: %d\n", cube);
 
